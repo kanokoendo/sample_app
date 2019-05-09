@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.3.8' # for heroku
 #ruby-gemset=railstutorial_rails_4_0
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.5'
 
 group :development, :test do
- gem 'sqlite3', '1.3.8'
+ gem 'sqlite3'
  gem 'rspec-rails', '2.13.1'
 end
 
