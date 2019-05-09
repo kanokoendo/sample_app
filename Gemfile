@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.3.8' # for heroku
+ruby '2.5.3' # for heroku
 #ruby-gemset=railstutorial_rails_4_0
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
